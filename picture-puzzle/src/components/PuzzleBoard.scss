@@ -1,0 +1,292 @@
+.main-header{
+    width: 100%;
+  
+    .heading{
+      display: block;
+      text-align: center;
+      margin: 20px auto;
+    }
+    .part1{
+      border: 5px solid darkslategrey;
+      padding: 15px;
+      width: fit-content;
+      border-radius: 16px;
+      background-image: url(../images/wood1.jpeg);
+      font-weight: 900;
+      color: darkslategrey;
+    }
+  
+    .part2{
+      font-weight: bolder;
+      color: darkslategrey;
+    }
+  
+    label{
+      border: 2px solid darkslategrey;
+      padding: 10px 50px;
+      border-radius: 8px;
+      font-size: 30px;
+      background-image:url(../images/wood1.jpeg);
+      font-family: fantasy;
+      font-weight: 600;
+    }
+  
+    #title{
+      font-family: fantasy;
+      font-size: 42px;
+      margin-bottom: 0px;
+      font-weight: 600;
+    }
+  }
+  
+  .main-body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 3%;
+  
+    .submain{
+      width: 43%;
+      border: 1px solid black;
+      background-color:white;
+      padding-bottom: 30px;
+      background-image:url(../images/wood1.jpeg);
+    }
+  
+    .tile-main{
+      margin: 5%;
+    }
+  
+    img{
+      border: 1px solid black;
+      position: absolute;
+    }
+  
+    .tile{
+      border: 1px solid darkslategrey;
+      float: left;
+      box-sizing: border-box;
+      cursor: grab;
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+    }
+  
+    .blank{
+      background-image: none;
+      border: 1px solid black;
+      float: left;
+      box-sizing: border-box;
+      cursor: grab;
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+    }
+  }
+  
+  .main-footer{
+    width: 100%;
+  }
+  
+  #btn{
+    width:150px ;
+    margin-top: 20px;
+  }
+
+  .btn-div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 17%;
+  }
+  
+  .btn{
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 20px 45%;
+    display: block;
+  }
+  
+  .btn-start{
+    border: 2px solid darkslategrey !important;
+    border-radius: 8px !important;
+    text-transform: none !important;
+    font-size: 30px !important;
+    background-image:url(../images/wood1.jpeg);
+    font-family: fantasy !important;
+    font-weight: 600 !important;
+    padding: 0px !important;
+  }
+  
+  .tile-image-l1{ 
+  
+    .tile{
+      width: 100%;
+      height: 60px;
+      background-image:url(../images/image1.jpeg);
+    }
+    
+    .blank{
+      width: 100%;
+      height: 60px;
+    }
+    
+    #tile0{ background-position-x:  0px ; background-position-y:  0px;}
+    #tile1{ background-position-x:  -0px ;background-position-y:  -60px;}
+    #tile2{ background-position-x:  -0px ;background-position-y:  -120px;}
+    #tile3{ background-position-x:  -0px ;background-position-y:  -180px;}
+    #tile4{ background-position-x:  -0px ;background-position-y:  -240px;}
+    #tile5{ background-position-x:  -0px ;background-position-y:  -300px;}
+  }
+    
+  .tile-image-l2{
+    
+    .tile{
+      width: 50%;
+      height: 90px;
+      background-image:url(../images/image2.jpg);
+  
+    }
+    
+    .blank{
+      width: 50%;
+      height: 90px;
+    }
+    
+    #tile0{ background-position-x:  0px; background-position-y:  0px;}
+    #tile1{ background-position-x:  -270px; background-position-y: -0px;}
+    #tile2{ background-position-x:  -0px; background-position-y:  -90px;}
+    #tile3{ background-position-x:  -270px; background-position-y: -90px;}
+    #tile4{ background-position-x:  -0px; background-position-y:  -180px;}
+    #tile5{ background-position-x:  -270px; background-position-y: -180px;}
+    #tile6{ background-position-x:  -0px; background-position-y:  -270px;}
+    #tile7{ background-position-x:  -270px; background-position-y:  -270px;}
+  }
+  
+  .tile-image-l3{
+  
+    .tile{
+      width: 33%;
+      height: 120px;
+      background-image:url(../images/image3.jpg);
+  
+    }
+  
+    .blank{
+      width: 33%;
+      height: 120px;
+    }
+  
+  
+    #tile0{ background-position-x:  0px; background-position-y:  0px;}
+    #tile1{ background-position-x:  -180px; background-position-y: -0px;}
+    #tile2{ background-position-x:  -360px; background-position-y:  -0px;}
+    #tile3{ background-position-x:  -0px; background-position-y: -120px;}
+    #tile4{ background-position-x:  -180px; background-position-y:  -120px;}
+    #tile5{ background-position-x:  -360px; background-position-y: -120px;}
+    #tile6{ background-position-x:  -0px; background-position-y:  -240px;}
+    #tile7{ background-position-x:  -180px; background-position-y:  -240px;}
+    #tile8{ background-position-x:  -360px; background-position-y:  -240px;}
+  }
+    
+  .tile-image-l4{
+    
+    .tile{
+      width: 25%;
+      height: 90px;
+      background-image:url(../images/image4.jpg);
+  
+    }
+    
+    .blank{
+      width: 25%;
+      height: 90px;
+    }
+    
+    
+    #tile0{ background-position-x:  0px; background-position-y:  0px;}
+    #tile1{ background-position-x:  -135px; background-position-y: -0px;}
+    #tile2{ background-position-x:  -270px; background-position-y:  -0px;}
+    #tile3{ background-position-x:  -405px; background-position-y: -0px;}
+    #tile4{ background-position-x:  -0px; background-position-y:  -90px;}
+    #tile5{ background-position-x:  -135px; background-position-y: -90px;}
+    #tile6{ background-position-x:  -270px; background-position-y:  -90px;}
+    #tile7{ background-position-x:  -405px; background-position-y:  -90px;}
+    #tile8{ background-position-x:  -0px; background-position-y:  -180px;}
+    #tile9{ background-position-x:  -135px; background-position-y: -180px;}
+    #tile10{ background-position-x:  -270px; background-position-y:  -180px;}
+    #tile11{ background-position-x:  -405px; background-position-y: -180px;}
+    #tile12{ background-position-x:  -0px; background-position-y:  -270px;}
+    #tile13{ background-position-x:  -135px; background-position-y:  -270px;}
+    #tile14{ background-position-x:  -270px; background-position-y:  -270px;}
+    #tile15{ background-position-x:  -405px; background-position-y:  -270px;}
+  
+  }
+
+  .tile-image-l5{
+    
+    .tile{
+      width: 20%;
+      height: 72px;
+      background-image:url(../images/image5.jpg);
+  
+    }
+    
+    .blank{
+      width: 20%;
+      height: 72px;
+    }
+    
+    
+    #tile0{ background-position-x:  0px; background-position-y:  0px;}
+    #tile1{ background-position-x:  -108px; background-position-y: -0px;}
+    #tile2{ background-position-x:  -216px; background-position-y:  -0px;}
+    #tile3{ background-position-x:  -324px; background-position-y: -0px;}
+    #tile4{ background-position-x:  -432px; background-position-y:  -0px;}
+    #tile5{ background-position-x:  -0px; background-position-y: -72px;}
+    #tile6{ background-position-x:  -108px; background-position-y:  -72px;}
+    #tile7{ background-position-x:  -216px; background-position-y:  -72px;}
+    #tile8{ background-position-x:  -324px; background-position-y:  -72px;}
+    #tile9{ background-position-x:  -432px; background-position-y: -72px;}
+    #tile10{ background-position-x:  -0px; background-position-y:  -144px;}
+    #tile11{ background-position-x:  -108px; background-position-y: -144px;}
+    #tile12{ background-position-x:  -216px; background-position-y:  -144px;}
+    #tile13{ background-position-x:  -324px; background-position-y:  -144px;}
+    #tile14{ background-position-x:  -432px; background-position-y:  -144px;}
+    #tile15{ background-position-x:  -0px; background-position-y:  -216px;}
+    #tile16{ background-position-x:  -108px; background-position-y:  -216px;}
+    #tile17{ background-position-x:  -216px; background-position-y:  -216px;}
+    #tile18{ background-position-x:  -324px; background-position-y:  -216px;}
+    #tile19{ background-position-x:  -432px; background-position-y: -216px;}
+    #tile20{ background-position-x:  -0px; background-position-y:  -288px;}
+    #tile21{ background-position-x:  -108px; background-position-y: -288px;}
+    #tile22{ background-position-x:  -216px; background-position-y:  -288px;}
+    #tile23{ background-position-x:  -324px; background-position-y:  -288px;}
+    #tile24{ background-position-x:  -432px; background-position-y:  -288px;}  
+  }  
+
+  .dialog-main{
+    font-size: 30px !important;
+    background-image:url(../images/wood1.jpeg);
+    font-family: fantasy !important;
+    font-weight: 600;
+    border: 4px solid darkslategrey;
+
+    .btn{
+      border: 3px solid darkslategrey !important;
+      border-radius: 8px !important;
+      text-transform: none !important;
+      background-image:url(../images/wood1.jpeg);
+      font-family: fantasy !important;
+      font-weight: 600 !important;
+      padding: 10px !important;
+      width: fit-content;
+      color: darkslategrey;
+    }
+
+    .content{
+      font-family: fantasy !important;
+      font-weight: 600 !important;
+      color: darkslategrey;
+    }
+  }
