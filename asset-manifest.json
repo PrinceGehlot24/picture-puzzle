@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/picture-puzzle/static/css/main.78dce03a.chunk.css",
+    "main.js": "/picture-puzzle/static/js/main.2f63f796.chunk.js",
+    "main.js.map": "/picture-puzzle/static/js/main.2f63f796.chunk.js.map",
+    "runtime-main.js": "/picture-puzzle/static/js/runtime-main.c40677ea.js",
+    "runtime-main.js.map": "/picture-puzzle/static/js/runtime-main.c40677ea.js.map",
+    "static/js/2.877d89b0.chunk.js": "/picture-puzzle/static/js/2.877d89b0.chunk.js",
+    "static/js/2.877d89b0.chunk.js.map": "/picture-puzzle/static/js/2.877d89b0.chunk.js.map",
+    "static/js/3.34727d97.chunk.js": "/picture-puzzle/static/js/3.34727d97.chunk.js",
+    "static/js/3.34727d97.chunk.js.map": "/picture-puzzle/static/js/3.34727d97.chunk.js.map",
+    "index.html": "/picture-puzzle/index.html",
+    "static/css/main.78dce03a.chunk.css.map": "/picture-puzzle/static/css/main.78dce03a.chunk.css.map",
+    "static/js/2.877d89b0.chunk.js.LICENSE.txt": "/picture-puzzle/static/js/2.877d89b0.chunk.js.LICENSE.txt",
+    "static/media/PuzzleBoard.scss": "/picture-puzzle/static/media/wood1.2e6288ff.jpeg",
+    "static/media/App.scss": "/picture-puzzle/static/media/puzzlebg.ccb0bbbf.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c40677ea.js",
+    "static/js/2.877d89b0.chunk.js",
+    "static/css/main.78dce03a.chunk.css",
+    "static/js/main.2f63f796.chunk.js"
+  ]
+}
