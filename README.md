@@ -21,7 +21,7 @@ Play and experience the game by clicking on the link below.
 Clone the project
 
 ```bash
-  git clone https://github.com/PrinceGehlot24/ecommerce.git
+  git clone https://github.com/PrinceGehlot24/picture-puzzle.git
 ```
 
 Go to the project directory
